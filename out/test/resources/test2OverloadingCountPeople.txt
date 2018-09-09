@@ -1,6 +1,12 @@
+#ELEVATORS
+#Count Elevators
 1
+#WeightCapacity PersonCountCapacity currentFloor
 500 3 1
+#PERSONS
+#Count Persons
 9
+#Weight StartingFloor DesiredFloor
 50 1 5
 50 1 5
 50 1 5
