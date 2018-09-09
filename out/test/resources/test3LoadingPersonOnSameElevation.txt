@@ -1,4 +1,7 @@
+#ELEVATORS
+#Count Elevators
 9
+#WeightCapacity PersonCountCapacity currentFloor
 1500 18 1
 1500 18 2
 1500 18 3
@@ -8,5 +11,8 @@
 1500 18 -3
 1500 18 -2
 1500 18 0
+#PERSONS
+#Count Persons
 1
+#Weight StartingFloor DesiredFloor
 20 4 7
