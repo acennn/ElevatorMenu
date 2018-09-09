@@ -1,0 +1,35 @@
+
+Created report on: 2018-09-09 16:07:34.611
+
+ElevatorId:3 loaded PersonId:1
+ElevatorId:1 loaded PersonId:2
+ElevatorId:3 loaded PersonId:3
+ElevatorId:2 loaded PersonId:4
+ElevatorId:2 loaded PersonId:5
+ElevatorId:2 loaded PersonId:6
+ElevatorId:2 loaded PersonId:7
+ElevatorId:3 loaded PersonId:8
+ElevatorId:2 loaded PersonId:12
+ElevatorId:2 loaded PersonId:17
+ElevatorId:2 loaded PersonId:22
+ElevatorId:2 loaded PersonId:27
+ElevatorId:1 loaded PersonId:29
+Iteration completed
+ElevatorId:1 loaded PersonId:9
+ElevatorId:1 loaded PersonId:10
+ElevatorId:2 loaded PersonId:11
+ElevatorId:2 loaded PersonId:13
+ElevatorId:2 loaded PersonId:14
+ElevatorId:3 loaded PersonId:15
+ElevatorId:3 loaded PersonId:16
+ElevatorId:3 loaded PersonId:18
+Iteration completed
+ElevatorId:1 loaded PersonId:19
+ElevatorId:1 loaded PersonId:20
+ElevatorId:2 loaded PersonId:21
+ElevatorId:2 loaded PersonId:23
+ElevatorId:2 loaded PersonId:24
+ElevatorId:3 loaded PersonId:25
+ElevatorId:3 loaded PersonId:26
+ElevatorId:3 loaded PersonId:28
+Iteration completed

@@ -1,0 +1,40 @@
+#ELEVATORS
+#Count Elevators
+3
+#WeightCapacity PersonCountCapacity currentFloor
+500 2 0
+100 3 3
+500 3 3
+#PERSONS
+#Count Persons
+29
+#Weight StartingFloor DesiredFloor
+120 3 77
+120 3 -3
+120 3 6
+20 3 5
+20 2 5
+20 3 5
+20 5 9
+20 3 5
+20 3 5
+20 2 5
+20 3 5
+20 5 9
+20 3 5
+20 3 5
+20 2 5
+20 3 5
+20 5 9
+20 3 5
+20 3 5
+20 2 5
+20 3 5
+20 5 9
+20 3 5
+20 3 5
+20 2 5
+20 3 5
+20 5 9
+20 3 5
+100 7 5
