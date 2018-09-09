@@ -9,7 +9,7 @@ Clone the project from: https://github.com/acennn/ElevatorMenu.git
 Step 2:
 Import the project with IntelliJ IDEA using Gradle.
 
-##The Elevator has these fields:
+## The Elevator has these fields:
 
     int elevatorId; - it is getting generated automatically.
     double weightCapacity; - populated from the input file
@@ -20,7 +20,7 @@ Import the project with IntelliJ IDEA using Gradle.
     boolean isElevatorUP; - it is getting generated automatically.
     int destinationFloor; - it is getting generated automatically.
 
-##The Person has these fields:
+## The Person has these fields:
 
         int personId; -it is getting generated automatically.
         double weight; - populated from the input file
@@ -28,7 +28,7 @@ Import the project with IntelliJ IDEA using Gradle.
         int desiredFloor; - populated from the input file
 
 
-##Input file:
+## Input file:
 
 Space delimited file. If you put \# (Number sign) as first sign on the row it is going to be skipped.
 Step 1:
@@ -42,22 +42,22 @@ Step 4:
 Then on the next rows you put data for every person that you would like to create,
 (weight(double) startingFloor(int) desiredFloor(int)) you have to add it for each person on a different row.
 
-##Don't put a free space or tabs before or after the rows, or it is going to cause error.
+## Don't put a free space or tabs before or after the rows, or it is going to cause error.
 
-##Example for input file:
+## Example for input file:
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-\#ELEVATORS
-\#Count Elevators
+\# ELEVATORS
+\# Count Elevators
 3
-\#WeightCapacity PersonCountCapacity currentFloor
+\# WeightCapacity PersonCountCapacity currentFloor
 500 2 0
 100 3 3
 500 3 3
-\#PERSONS
-\#Count Persons
+\# PERSONS
+\# Count Persons
 10
-\#Weight StartingFloor DesiredFloor
+\# Weight StartingFloor DesiredFloor
 120 3 77
 120 3 -3
 120 3 6
@@ -83,7 +83,7 @@ If you would like to use an external output file you have to go to the Main.clas
         String fileNameElevatorsPersonsDataReport = "src/main/resources/fileElevatorsPersonsDataReport.txt";
 the string has to be all together with the correct path like this "C:\testFolder\testOutputFile.txt".
 
-##Output file:
+## Output file:
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Created report on: 2018-09-09 16:07:34.611
@@ -107,7 +107,7 @@ On the next row once the elevators can't put any more persons the iteration is c
 floor and once they load off the elevators are going to take other people for next iteration. All iterations  end
 once all the people have been loaded and taken to the correct floor (if possible, otherwise the rest have to take the stares :) ).
 
-##Tests
+## Tests
 If you want to run the tests you have to go to src/test/java/Tests.class and run it.
 
 ## Built With
