@@ -1,0 +1,14 @@
+#ELEVATORS
+#Count Elevators
+2
+#WeightCapacity PersonCountCapacity currentFloor
+wrongDta1
+wrongData2
+#PERSONS
+#Count Persons
+4
+#Weight StartingFloor DesiredFloor
+120 5 9
+120 5 7
+120 15 21
+100 7 17

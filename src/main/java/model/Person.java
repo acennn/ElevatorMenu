@@ -1,12 +1,14 @@
+package model;
+
 import java.util.Objects;
 
 public class Person {
 
     private static int globalPersonId = 0;
     private int personId;
-    private double weight;
-    private int startingFloor;
-    private int desiredFloor;
+    private final double weight;
+    private final int startingFloor;
+    private final int desiredFloor;
 
     public Person(double weight, int startingFloor, int desiredFloor) {
         globalPersonId++;
@@ -18,10 +20,6 @@ public class Person {
 
     public static int getGlobalPersonId() {
         return globalPersonId;
-    }
-
-    public static void setGlobalPersonId(int globalPersonId) {
-        Person.globalPersonId = globalPersonId;
     }
 
     public int getPersonId() {
@@ -36,29 +34,17 @@ public class Person {
         return weight;
     }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
     public int getStartingFloor() {
         return startingFloor;
-    }
-
-    public void setStartingFloor(int startingFloor) {
-        this.startingFloor = startingFloor;
     }
 
     public int getDesiredFloor() {
         return desiredFloor;
     }
 
-    public void setDesiredFloor(int desiredFloor) {
-        this.desiredFloor = desiredFloor;
-    }
-
     @Override
     public String toString() {
-        return "Person{" +
+        return "model.Person{" +
                 "personId=" + personId +
                 ", weight=" + weight +
                 ", startingFloor=" + startingFloor +
