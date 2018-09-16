@@ -1,6 +1,6 @@
 ## ElevatorMenu
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-*Elevator menu is an app that could select the best elevator from many, for person who wants to move from floor "A" to
+*model.Elevator menu is an app that could select the best elevator from many, for person who wants to move from floor "A" to
 floor "B".*
 ### Getting Started
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -8,17 +8,17 @@ floor "B".*
 *Clone the project from: https://github.com/acennn/ElevatorMenu.git*  
 **Step 2:**  
 *Import the project with [IntelliJ IDEA](https://www.jetbrains.com/idea/) using [Gradle](https://gradle.org/).*
-### The Elevator has these fields:
+### The model.Elevator has these fields:
 ----------------------------------------------------------------------------------------------------------------------------------------------------
     int elevatorId; - it is getting generated automatically.
     double weightCapacity; - populated from the input file.
     int personCountCapacity; - populated from the input file.
     double currentWeight; - it is getting generated automatically.
-    ArrayList<Person> loadedPersons; - it is getting generated automatically.
+    ArrayList<model.Person> loadedPersons; - it is getting generated automatically.
     int currentFloor; - populated from the input file.
     boolean isElevatorUP; - it is getting generated automatically.
     int destinationFloor; - it is getting generated automatically.
-### The Person has these fields:
+### The model.Person has these fields:
 ----------------------------------------------------------------------------------------------------------------------------------------------------
     int personId; -it is getting generated automatically.
     double weight; - populated from the input file.

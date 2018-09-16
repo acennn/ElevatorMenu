@@ -1,12 +1,15 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class Elevator {
 
     private static int globalElevatorID = 0;
+    private static int countCreatedElevators = 0;
     private int elevatorId;
-    private double weightCapacity;
-    private int personCountCapacity;
+    private final double weightCapacity;
+    private final int personCountCapacity;
     private double currentWeight;
     private ArrayList<Person> loadedPersons;
     private int currentFloor;
@@ -15,6 +18,7 @@ public class Elevator {
 
     public Elevator(double weightCapacity, int personCountCapacity, int currentFloor) {
         globalElevatorID++;
+        countCreatedElevators++;
         this.elevatorId = globalElevatorID;
         this.weightCapacity = weightCapacity;
         this.personCountCapacity = personCountCapacity;
@@ -25,10 +29,6 @@ public class Elevator {
 
     public static int getGlobalElevatorID() {
         return globalElevatorID;
-    }
-
-    public static void setGlobalElevatorID(int globalElevatorID) {
-        Elevator.globalElevatorID = globalElevatorID;
     }
 
     public int getElevatorId() {
@@ -43,16 +43,8 @@ public class Elevator {
         return weightCapacity;
     }
 
-    public void setWeightCapacity(double weightCapacity) {
-        this.weightCapacity = weightCapacity;
-    }
-
     public int getPersonCountCapacity() {
         return personCountCapacity;
-    }
-
-    public void setPersonCountCapacity(int personCountCapacity) {
-        this.personCountCapacity = personCountCapacity;
     }
 
     public double getCurrentWeight() {
@@ -95,9 +87,13 @@ public class Elevator {
         this.destinationFloor = destinationFloor;
     }
 
+    public static int getCountCreatedElevators() {
+        return countCreatedElevators;
+    }
+
     @Override
     public String toString() {
-        return "Elevator{" +
+        return "model.Elevator{" +
                 "elevatorId=" + elevatorId +
                 ", weightCapacity=" + weightCapacity +
                 ", personCountCapacity=" + personCountCapacity +
